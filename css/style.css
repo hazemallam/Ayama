@@ -1,0 +1,111 @@
+*{
+    font-family: 'Cairo', sans-serif;
+
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+#top{
+    background-color: #231f20;
+    height: 40px;
+
+}
+li{
+    display: inline-block;
+    list-style-type: none;
+}
+#top a{
+    text-decoration: none;
+    list-style-type: none;
+}
+.headerlist{
+    color: white;
+    float : left;
+    display: block;
+}
+.top-font-size{
+    font-size: 12px;
+}
+.list-color{
+    color: aliceblue;
+}
+.whenhover:hover{
+    color: red;
+}
+.divbutton{
+    border: 1px solid rgb(207, 78, 78);
+    background-color: rgb(207, 78, 78);
+    width: 10%;
+    height: 10%;
+
+}
+.buttonhover:hover{
+    color: red;
+}
+div img{
+    width: 5%;
+    height: 30%;
+}
+.deleteline{
+    text-decoration: none!important;
+}
+.deleteline:hover{
+    color: red; 
+}
+.sectionTitle{
+    margin-top: 5%;
+}
+
+.blog .card{
+    transition: all .7s;
+}
+.blog .card:hover img{
+    transform:scale(1.2)
+}
+.ruler{
+    height: 5px;
+}
+.cardt img{
+   width: 20%;
+   height: 20%;
+   
+}
+.f3{
+    color: #fff;
+}
+.f3 h4{
+    border-bottom: 1px dotted #5d5658;
+    color: red;
+}
+.copyrights{
+    background-color: black;
+}
+
+
+form {
+    border: 3px solid #f1f1f1;
+  }
+  
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
